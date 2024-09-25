@@ -1,6 +1,12 @@
 ## Project Overview
 This serves as the student's first deliberate practice over the various methods available to them under the domain of Machine Learning for sentiment analysis. These include Classical Machine Learning Techniques (specifically regressions, trees, ensembles, boosting, and support vector machines (SVMs), Neural Networks with Semantic Embeddings, and finally, transformers.  
 
+![Fusion Net Architecture.png](<media\FusionNet 7.4M.png>)
+
+The final product of this project ended up being this FusionNet architecture, a neural network built upon the combination of neural networks that work upon static word embeddings.
+
+
+
 ## Problem Definition and Literature Search
 The `rotten_tomatoes` dataset was originally formulated by [Pang and Lee (2005)](https://arxiv.org/pdf/cs/0506075.pdf) where they wanted to infer a rating based on the proportion of positive sentences within a given review by a specific author. In order to do so, they needed a dataset that contained sentences that were fragemented off from the entirety of the review and `rotten_tomatoes` is the product of their initial work. These labels were procedurally generated based on removing a set of stop words and the sentiments {0: negative, 1: positive} were inferred from the rating of the review. Afterwards, they were fitted to a Naieve Bayes model and propogated used to predict the sentiments of the rest of their review data. The original data can be found [here](https://www.cs.cornell.edu/people/pabo/movie-review-data/). 
 
