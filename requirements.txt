@@ -1,0 +1,6 @@
+datasets
+beautifulsoup4  
+scikit-learn  
+nltk
+pandas
+numpy
